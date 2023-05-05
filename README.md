@@ -1,2 +1,1 @@
-# yamdb_final
-yamdb_final
+![example workflow](https://github.com/alexandernice777/yandb_final/actions/workflows/maim.yml/badge.svg)
