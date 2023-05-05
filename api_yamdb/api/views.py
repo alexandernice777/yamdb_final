@@ -9,9 +9,9 @@ from rest_framework.pagination import LimitOffsetPagination
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
-
 from reviews.models import Category, Genre, Review, Title
 from users.models import CustomUser
+
 from .filters import TitleFilter
 from .mixins import CustomModelMixin
 from .permissions import (IsAdminOrReadOnly, IsAdminStaffOnly,
@@ -19,8 +19,8 @@ from .permissions import (IsAdminOrReadOnly, IsAdminStaffOnly,
 from .serializers import (CategorySerializer, CommentSerializer,
                           CustomUserSerializer, GenreSerializer,
                           GetTokenSerializer, InputTitleSerializer,
-                          SelfUserSerializer, OutputTitleSerializer,
-                          ReviewSerializer, SignUpSerializer)
+                          OutputTitleSerializer, ReviewSerializer,
+                          SelfUserSerializer, SignUpSerializer)
 
 
 class CategoryViewSet(CustomModelMixin):

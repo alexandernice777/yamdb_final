@@ -1,12 +1,12 @@
 from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 from rest_framework.relations import SlugRelatedField
-
-from api_yamdb.settings import (FORBIDDEN_USERNAME,
-                                MINSCORE, MAXSCORE)
-from .mixins import ValidateUsernameSerializerMixin
 from reviews.models import Category, Comment, Genre, Review, Title
 from users.models import CustomUser
+
+from api_yamdb.settings import FORBIDDEN_USERNAME, MAXSCORE, MINSCORE
+
+from .mixins import ValidateUsernameSerializerMixin
 
 
 class CategorySerializer(serializers.ModelSerializer):

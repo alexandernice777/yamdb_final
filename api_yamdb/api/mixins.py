@@ -1,10 +1,10 @@
 import re
 
-from rest_framework import serializers
-from rest_framework import filters, mixins, viewsets
+from rest_framework import filters, mixins, serializers, viewsets
 from rest_framework.pagination import LimitOffsetPagination
 
 from api_yamdb.settings import REGEXP_USERNAME
+
 from .permissions import IsAdminOrReadOnly
 
 
