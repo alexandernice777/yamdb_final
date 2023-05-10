@@ -1,1 +1,1 @@
-![example workflow](https://github.com/alexandernice777/yandb_final/actions/workflows/maim.yml/badge.svg)
+![example workflow](https://github.com/alexandernice777/yandb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
