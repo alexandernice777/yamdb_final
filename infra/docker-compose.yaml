@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: moscow777/infra_actions
+    image: moscow777/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
