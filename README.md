@@ -1,6 +1,6 @@
 ![example workflow](https://github.com/alexandernice777/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # api_yamdb
-Авторы проекта:
+Автор проекта:
 
 Александр Сисецкий
 ### Как запустить проект:
