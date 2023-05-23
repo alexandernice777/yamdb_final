@@ -12,8 +12,8 @@ services:
     image: moscow777/yamdb_final:latest
     restart: always
     volumes:
-      - static_value:../api_yamdb/static/:ro
-      - media_value:../api_yamdb/media/:ro
+      - static_value:/app/static/:ro
+      - media_value:/app/media/:ro
     depends_on:
       - db
     env_file:
